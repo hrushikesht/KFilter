@@ -1,0 +1,3 @@
+useDynLib(KFilter)
+importFrom(Rcpp, evalCpp)
+exportPattern("^[[:alpha:]]+")
